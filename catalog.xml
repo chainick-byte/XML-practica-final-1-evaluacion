@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/igorr/OneDrive/Documentos/NetBeansProjects/patrones/TallerCoches/../../../../Escritorio/2ºDAM/Acceso%20a%20BBDD/practica_final_1ev/taller_coche.xsd" uri="xml-resources/jaxb/TallerCoche%20binding/taller_coche.xsd"/>
+</catalog>

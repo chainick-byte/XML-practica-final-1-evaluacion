@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+    <xsd:element name="taller">
+        <xsd:complexType>
+            <xsd:choice maxOccurs="unbounded" >
+                <xsd:complexType>
+                    <xsd:element name="coche" minOccurs="0" maxOccurs="unbounded">
+                        <xsd:sequence>
+                            <xsd:element name="fecha_entrada" type="xsd:string"/>
+                            <xsd:element name="marca" type="xsd:string"/>
+                            <xsd:complexType>
+                                <xsd:element name="propietario" maxOccurs="unbounded">
+                                    <xsd:sequence>
+                                        <xsd:element name="nombre" type="xsd:string" />
+                                        <xsd:element name="primerApellido" type="xsd:string" />
+                                        <xsd:element name="segundoApellido" type="xsd:string" />
+                                    </xsd:sequence>
+                                    <xsd:attribute name="dni" type="xsd:string" />
+                                </xsd:element>
+                            </xsd:complexType>
+                            <xsd:complexType>
+                                <xsd:element name="asunto" maxOccurs="unbounded">
+                                    <xsd:sequence>
+                                        <xsd:element name="mecanico" type="xsd:string" />
+                                        <xsd:attribute name="id" type="xsd:string"/>
+                                        <xsd:element name="descripcion" type="xsd:string" />
+                                    </xsd:sequence>
+                                </xsd:element>
+                            </xsd:complexType>
+                            <xsd:element name="precio" type="xsd:string" />
+                            <xsd:element name="fecha_salida" type="xsd:string" />
+                        </xsd:sequence>
+                        <xsd:attribute name="matricula" type="xsd:string" />
+                    </xsd:element>
+                </xsd:complexType>
+            </xsd:choice>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
