@@ -83,11 +83,13 @@ public class gesJAXB {
             cadena_resultado = cocheAuxiliar.getFechaEntrada();
             System.out.println(cadena_resultado);
             if (cocheAuxiliar.getMatricula().equals(contenidoAntiguo)) {
-                cocheAuxiliar.setMatricula(contenidoNuevo);
+               iCoche.get(i).setMatricula(contenidoNuevo);
             } else if (cocheAuxiliar.getFechaEntrada().equals(contenidoAntiguo)) {
-                cocheAuxiliar.setFechaEntrada(contenidoNuevo);
+                iCoche.get(i).setFechaEntrada(contenidoNuevo);
             }else if(cocheAuxiliar.getMarca().equals(contenidoAntiguo)){
-                cocheAuxiliar.setMarca(contenidoNuevo);
+                iCoche.get(i).setMarca(contenidoNuevo);
+            }else if(cocheAuxiliar.getPropietario().equals(contenidoAntiguo)){
+                
             }
         }
         for (int i = 0; i < iCoche.size(); i++) {
