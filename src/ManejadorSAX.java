@@ -42,26 +42,26 @@ public class ManejadorSAX extends DefaultHandler{
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
         if(qName.equals("coche")){
-            salida=salida+"Cliente nuevo\n"+"Vehiculo: "+attributes.getValue(attributes.getQName(0).trim());
+            salida=salida+"Cliente nuevo\n"+"Matricula: "+attributes.getValue(attributes.getQName(0).trim());
         }else if(qName.equals("fecha_entrada")){
-            salida=salida+"vehiculo entro al garaje: ".trim();
+            salida=salida+"\n"+"Vehiculo entro al garaje: ".trim();
         }else if(qName.equals("marca")){
-            salida=salida+"vehiculo de marca: ".trim();
+            salida=salida+"Modelo de coche: ".trim();
         }else if(qName.equals("propietario")){
             salida=salida+"Propietario:";
-            salida=salida+("\t\nDNI: "+ attributes.getValue(attributes.getQName(0)).trim());
+            salida=salida+"\t"+("\nDNI: "+ attributes.getValue(attributes.getQName(0)).trim());
         }else if(qName.equals("nombre")){
-            salida=salida+"\t"+("Nombre: ").trim();
+            salida=salida+"\n"+"\t"+("Nombre: ").trim();
         }else if(qName.equals("primerApellido")){
             salida=salida+"\t"+("Primer Apellido: ").trim();
         }else if(qName.equals("segundoApellido")){
             salida=salida+"\t"+("Segundo Apellido: ").trim();
         }else if(qName.equals("asunto")){
-            salida=salida+"El vehiculo fue revisadopor\n ".trim();
-        }else if(qName.equals("mecanico")){
-            salida=salida+"Mecanico: ".trim();
+            salida=salida+"El asunto de visita: \n ";
         }else if(qName.equals("id")){
             salida=salida+"Identificador del mecanico: "+attributes.getValue(attributes.getQName(0).trim());
+        }else if(qName.equals("mecanico")){
+            salida=salida+"Mecanico: ".trim();
         }else if(qName.equals("descripcion")){
             salida=salida+"Descripcion de la operación realizada: ".trim();
         }else if(qName.equals("precio")){

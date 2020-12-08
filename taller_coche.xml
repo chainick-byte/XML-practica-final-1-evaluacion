@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taller>
+    <coche matricula="aa111A">
+        <fecha_entrada>22-11-1987</fecha_entrada>
+        <marca>Feat 600</marca>
+        <propietario dni="1234567A">
+            <nombre>Juan</nombre>
+            <primerApellido>Perez</primerApellido>
+            <segundoApellido>Garcia</segundoApellido>
+        </propietario>
+        <asunto>
+            <mecanico id="1212">Pedro Picapiedra</mecanico>
+            <descripcion>cambio de aceite rutinario</descripcion>
+        </asunto>
+        <precio>30$</precio>
+        <fecha_salida>21-11-1987</fecha_salida>
+    </coche>
+    <coche matricula="matricula">
+        <fecha_entrada>21-1-1987</fecha_entrada>
+        <marca>citroen c2</marca>
+        <propietario dni="1234567A">
+            <nombre>Jose Maria</nombre>
+            <primerApellido>Lopez</primerApellido>
+            <segundoApellido>Hernadez</segundoApellido>
+        </propietario>
+        <asunto>
+            <mecanico id="1345">Peter Parker</mecanico>
+            <descripcion>Cambio de parabrisas</descripcion>
+        </asunto>
+        <precio>340$</precio>
+        <fecha_salida>17-04-2015</fecha_salida>
+    </coche>
+    <coche matricula="xx001x">
+        <fecha_entrada>21-1-1987</fecha_entrada>
+        <marca>Seat ibiza</marca>
+        <propietario dni="1234567A">
+            <nombre>Jose Maria</nombre>
+            <primerApellido>Lopez</primerApellido>
+            <segundoApellido>Hernadez</segundoApellido>
+        </propietario>
+        <asunto>
+            <mecanico id="5634">Profesor Xavier</mecanico>
+            <descripcion>Cambio de frenos</descripcion>
+        </asunto>
+        <precio>150$</precio>
+        <fecha_salida>21-04-2015</fecha_salida>
+    </coche>
+    <coche matricula="ab777a">
+        <fecha_entrada>23-12-2020</fecha_entrada>
+        <marca>mercedes-benz 240</marca>
+        <propietario dni="1234567A">
+            <nombre>Rafael</nombre>
+            <primerApellido>Garcia</primerApellido>
+            <segundoApellido>Garcia</segundoApellido>
+        </propietario>
+        <asunto>
+            <mecanico id="1345">Logan</mecanico>
+            <descripcion>revision</descripcion>
+        </asunto>
+        <precio>60$</precio>
+        <fecha_salida>27-11-2020</fecha_salida>
+    </coche>
+    <coche matricula="zz123B">
+        <fecha_entrada>21-12-2020</fecha_entrada>
+        <marca>Seat Ibiza</marca>
+        <propietario dni="1116999F">
+            <nombre>Pedro</nombre>
+            <primerApellido>Garcia</primerApellido>
+            <segundoApellido>Hernandez</segundoApellido>
+        </propietario>
+        <asunto>
+            <mecanico>yo mismo</mecanico>
+            <descripcion>C:\Users\igorr\OneDrive\Documentos\
+NetBeansProjects\patrones
+\TallerCoches\taller_coche.xml</descripcion>
+        </asunto>
+        <precio>Fecha salida</precio>
+        <fecha_salida>30-12-2020</fecha_salida>
+    </coche>
+    <coche matricula="gg234B">
+        <fecha_entrada>12-4-2020</fecha_entrada>
+        <marca>Mercedes-benz</marca>
+        <propietario dni="567344J">
+            <nombre>igor</nombre>
+            <primerApellido>Repyakh</primerApellido>
+            <segundoApellido>Repyakh</segundoApellido>
+        </propietario>
+        <asunto>
+            <mecanico>Yo mismo</mecanico>
+            <descripcion>hueor naier lakslask ndeic naje mlasowj 
+afiefneif cmeokefe</descripcion>
+        </asunto>
+        <precio>Fecha salida</precio>
+        <fecha_salida>22-12-2020</fecha_salida>
+    </coche>
+    <coche matricula="as345h">
+        <fecha_entrada>2020-12-08</fecha_entrada>
+        <marca>Seat Ibiza</marca>
+        <propietario dni="x8882999H">
+            <nombre>Jesus</nombre>
+            <primerApellido>Lopez</primerApellido>
+            <segundoApellido>Garcia</segundoApellido>
+        </propietario>
+        <asunto>
+            <mecanico>Pedro Hernandez</mecanico>
+            <descripcion>algo por poner </descripcion>
+        </asunto>
+        <precio>Fecha salida</precio>
+        <fecha_salida>2020-9-12</fecha_salida>
+    </coche>
+    <coche matricula="ma345d">
+        <fecha_entrada>09-12-2020</fecha_entrada>
+        <marca>Renault</marca>
+        <propietario dni="2345678J">
+            <nombre>Umberto</nombre>
+            <primerApellido>Brian</primerApellido>
+            <segundoApellido>Garcia</segundoApellido>
+        </propietario>
+        <asunto>
+            <mecanico>David Brian</mecanico>
+            <descripcion>algo por poner</descripcion>
+        </asunto>
+        <precio>1500</precio>
+        <fecha_salida>12-12-2020</fecha_salida>
+    </coche>
+    <coche matricula="ma345d">
+        <fecha_entrada>09-12-2020</fecha_entrada>
+        <marca>eat Ibiza</marca>
+        <propietario dni="2345678J">
+            <nombre>david </nombre>
+            <primerApellido>Garcia</primerApellido>
+            <segundoApellido>Abril</segundoApellido>
+        </propietario>
+        <asunto>
+            <mecanico>yo mismo</mecanico>
+            <descripcion>algo por poner</descripcion>
+        </asunto>
+        <precio>1500</precio>
+        <fecha_salida>22-12-2020</fecha_salida>
+    </coche>
+    <coche matricula="as566H">
+        <fecha_entrada>09-12-2020</fecha_entrada>
+        <marca>BMW z6</marca>
+        <propietario dni="5656567H">
+            <nombre>igor</nombre>
+            <primerApellido>Gomez</primerApellido>
+            <segundoApellido>Repyakh</segundoApellido>
+        </propietario>
+        <asunto>
+            <mecanico>yo mismo</mecanico>
+            <descripcion>algo por poner</descripcion>
+        </asunto>
+        <precio>20000</precio>
+        <fecha_salida>21-12-2020</fecha_salida>
+    </coche>
+    <coche matricula="aa777a">
+        <fecha_entrada>08-12-2020</fecha_entrada>
+        <marca>Seat ibiza</marca>
+        <propietario dni="4545456G">
+            <nombre>yo</nombre>
+            <primerApellido>mismo</primerApellido>
+            <segundoApellido>asi lo digo</segundoApellido>
+        </propietario>
+        <asunto>
+            <mecanico>pepito peraz</mecanico>
+            <descripcion>hauoha hauahoa sjpsjp japj9xx jejidxi</descripcion>
+        </asunto>
+        <precio>Fecha salida</precio>
+        <fecha_salida>hoy mismo</fecha_salida>
+    </coche>
+    <coche matricula="practica">
+        <fecha_entrada>08-12-2020</fecha_entrada>
+        <marca>final</marca>
+        <propietario dni="de Acceso">
+            <nombre>a bases</nombre>
+            <primerApellido>de datos</primerApellido>
+            <segundoApellido>demostracion</segundoApellido>
+        </propietario>
+        <asunto>
+            <mecanico>practica</mecanico>
+            <descripcion>de añadir nuevo registro</descripcion>
+        </asunto>
+        <precio>Fecha salida</precio>
+        <fecha_salida>que ase?</fecha_salida>
+    </coche>
+    <coche matricula="hola que ase? ">
+        <fecha_entrada>08-12-2020</fecha_entrada>
+        <marca>no hago nada</marca>
+        <propietario dni="yo mismo">
+            <nombre>practica final</nombre>
+            <primerApellido>de primera evaluacion </primerApellido>
+            <segundoApellido>de acceso a bases de datos</segundoApellido>
+        </propietario>
+        <asunto id="1213">
+            <mecanico>yo mismo otra vez</mecanico>
+            <descripcion>nocacoacnaouvnonwqouvbeuifbqof</descripcion>
+        </asunto>
+        <precio>Fecha salida</precio>
+        <fecha_salida>21-12-2020</fecha_salida>
+    </coche>
+</taller>

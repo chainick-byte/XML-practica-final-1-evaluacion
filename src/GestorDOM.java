@@ -21,7 +21,6 @@ import org.w3c.dom.Node;
  */
 public class GestorDOM {
     
-       AbreFile ab = new AbreFile();
 
     static Document doc;
 
@@ -124,7 +123,7 @@ public class GestorDOM {
         }
         public int guardarDomComoXml(){
             try {
-                File archivo_xml=new File(ab.getRutaAuxiliar());
+                File archivo_xml=new File("taller_coche.xml");
                 OutputFormat format=new OutputFormat(doc);
                 format.setIndenting(true);
                 XMLSerializer serializer=new XMLSerializer(new FileOutputStream(archivo_xml),format);

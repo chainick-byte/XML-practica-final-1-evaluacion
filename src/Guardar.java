@@ -13,7 +13,7 @@ import java.io.FileWriter;
  */
 public class Guardar {
 
-    gesJAXB miGestor = new gesJAXB();
+    GestorJAXB miGestor = new GestorJAXB();
 
     public void guardarJAXB(String textoGuardar, String rutaArchivo) {
         try {
